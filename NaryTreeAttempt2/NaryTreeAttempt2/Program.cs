@@ -9,18 +9,9 @@ namespace NaryTreeAttempt2
 {
     class Program
     {    
-        static void Main(string[] args)
+        static void Main()
         {
-            Node<string> Node1 = new Node<string>("Bomba");        
-            Node<string> Node2 = new Node<string>("Ko");
             
-
-            DataStructures.List<string> list = new DataStructures.List<string>();
-            list.Add(Node1);
-            list.Add(Node2);
-            
-        
-            list.Print();
         }
 
     }
